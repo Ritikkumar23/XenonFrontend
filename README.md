@@ -1,7 +1,6 @@
-🌟 PropertyX - Modern property Finder 🌟
 
-Welcome to PropertyX, a cutting-edge property Finder! 🚀
-
+🌟 PropertyX - Modern Property Finder 🌟
+Welcome to PropertyX, a cutting-edge property finder designed to make your real estate search easy and efficient! 🚀
 
 ⚡ Key Features
 🔥 Blazing Fast – Built with cutting-edge technologies.
@@ -10,11 +9,27 @@ Welcome to PropertyX, a cutting-edge property Finder! 🚀
 🚀 Optimized Performance – Minimal load times and lightning-fast navigation.
 🔐 Secure – Modern authentication and data protection.
 🎥 Demo
+https://xenon-frontend-eight.vercel.app/
+
+📸 Screenshots
+Here are some screenshots of PropertyX in action:
+Home page:
+![image](https://github.com/user-attachments/assets/5c37cf40-fdf4-4e5d-abe7-aadaf8412c3b)
+Login Page:
+![image](https://github.com/user-attachments/assets/5088c520-0042-4b3f-bec3-fabf0c16d05e)
+SignUp page:
+![image](https://github.com/user-attachments/assets/46fc3b64-993d-4922-81bd-811014c2d0ba)
+
+
+
+
+<!-- Replace with actual screenshot -->
+<!-- Replace with actual screenshot -->
 
 📂 Project Structure
 bash
 Copy code
-XenonFrontend/
+PropertyX/
 │
 ├── frontend/              # React Frontend Application
 │   ├── src/
@@ -24,7 +39,7 @@ XenonFrontend/
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/user/XenonFrontend.git
+git clone https://github.com/user/PropertyX.git
 2. Install Dependencies
 bash
 Copy code
@@ -41,10 +56,10 @@ npm start
 # For backend
 node index.js
 4. Open in Browser
-https://xenon-frontend-eight.vercel.app/
+http://localhost:3000
 
 💡 How It Works
-PropertyX uses a MERN (MongoDB, Express.js, React, Node.js) stack for building modern, full-stack web applications. The frontend leverages React for dynamic UI components, while the backend provides a robust API built with Node.js and Express, ensuring smooth communication with the MongoDB database.
+PropertyX uses a MERN (MongoDB, Express.js, React, Node.js) stack to build modern, full-stack web applications. The frontend leverages React for dynamic UI components, while the backend provides a robust API built with Node.js and Express, ensuring smooth communication with the MongoDB database.
 
 🛠️ Tech Stack
 Frontend: React, Tailwind CSS, Redux
@@ -67,18 +82,14 @@ Open a Pull Request.
 Need help? Feel free to reach out to the maintainers or open an issue.
 
 📣 Join the Community
-Connect with us on Slack or follow us on Twitter @XenonFrontend.
+Connect with us on Slack or follow us on Twitter @PropertyX.
 
 🌟 Star this Project
 If you find this project useful, please consider starring it on GitHub to show your support! It helps us a lot. 😄
 
 
 📧 Contact
-For any inquiries, contact us at support@xenonfrontend.com.
+For any inquiries, contact us at support@propertyx.com.
 
 👏 Thank You!
-Thank you for taking the time to check out XenonFrontt. We hope this project helps you create awesome websites quickly and efficiently!
-
-This README.md uses attractive formatting and badges to make it inviting, with sections like key features, demo, installation steps, and contribution guidelines. It balances aesthetics with clarity, encouraging users to engage with the project.
-
-You can customize the placeholders with your specific project details, URLs, and images to make it more personal.
+Thank you for taking the time to check out PropertyX. We hope this project helps you find your dream property efficiently and effortlessly!
