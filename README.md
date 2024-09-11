@@ -57,6 +57,7 @@ npm start
 node index.js
 4. Open in Browser
 https://github.com/Ritikkumar23/XenonFrontend.git
+https://github.com/Ritikkumar23/XenonBackend.git
 
 💡 How It Works
 PropertyX uses a MERN (MongoDB, Express.js, React, Node.js) stack to build modern, full-stack web applications. The frontend leverages React for dynamic UI components, while the backend provides a robust API built with Node.js and Express, ensuring smooth communication with the MongoDB database.
@@ -66,12 +67,9 @@ Frontend: React, Tailwind CSS, Redux
 Backend: Node.js, Express
 Database: MongoDB
 Authentication: JWT, OAuth
-DevOps: Docker, Render, CI/CD
+
 🛠 Installation & Usage Guide
 Detailed instructions on setup, installation, and usage can be found in our Installation Guide.
-
-👥 Contributing
-We ❤️ contributions! Here’s how you can contribute:
 
 Fork the repository.
 Create a new branch (git checkout -b feature-branch).
