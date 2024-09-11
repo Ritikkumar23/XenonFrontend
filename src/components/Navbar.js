@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { Link, useLocation } from 'react-router-dom';
+import { useNavigate, Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
     let navigate = useNavigate();
@@ -67,14 +66,14 @@ const Navbar = () => {
                     </button>
                 </div>
 
-                {/* Authentication Buttons */}
+                {/* Authentication Buttons for Desktop */}
                 <div className="hidden lg:flex space-x-4">
                     {!localStorage.getItem('token') ? (
                         <>
                             <Link to="/login" className="btn btn-outline btn-indigo-500 rounded-md">
                                 Login
                             </Link>
-                            <Link to="/signup" className="btn btn-outline btn-indigo-500 rounded-md ">
+                            <Link to="/signup" className="btn btn-outline btn-indigo-500 rounded-md">
                                 Sign Up
                             </Link>
                         </>
@@ -110,6 +109,27 @@ const Navbar = () => {
                                 Contact
                             </Link>
                         </li>
+                        {/* Authentication Buttons for Mobile */}
+                        {!localStorage.getItem('token') ? (
+                            <>
+                                <li>
+                                    <Link to="/login" className="block py-2 text-indigo-500" onClick={closeMenu}>
+                                        Login
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/signup" className="block py-2 text-indigo-500" onClick={closeMenu}>
+                                        Sign Up
+                                    </Link>
+                                </li>
+                            </>
+                        ) : (
+                            <li>
+                                <button className="block py-2 text-indigo-500" onClick={handleLogout}>
+                                    Logout
+                                </button>
+                            </li>
+                        )}
                     </ul>
                 </div>
             )}
