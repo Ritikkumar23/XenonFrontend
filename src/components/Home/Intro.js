@@ -1,106 +1,103 @@
-import React, { useState } from 'react'
+import React from 'react';
 
 const Intro = () => {
     return (
         <>
-            <section class="text-gray-600 body-font ">
-                <div class="container mx-auto flex px-5 py-12 items-center justify-center flex-col">
+            <section className="text-gray-600 body-font">
+                <div className="container mx-auto flex px-5 py-12 items-center justify-center flex-col">
+                    {/* Carousel */}
                     <div className="carousel w-full">
                         <div id="slide1" className="carousel-item relative w-full">
-
-                            <iframe class="w-full " height="720" src="https://www.youtube.com/embed/hhcIieKNXN0" title="Intro video at Ra By Dr Rashmi Shetty" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
+                            <img className="w-full h-96 object-cover" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Luxury Apartment in NYC" />
                             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                                <a href="#slide2" className="btn btn-circle">❮</a>
+                                <a href="#slide3" className="btn btn-circle">❮</a>
                                 <a href="#slide2" className="btn btn-circle">❯</a>
                             </div>
                         </div>
                         <div id="slide2" className="carousel-item relative w-full">
-
-                            <iframe class="w-full" height="720" src="https://www.youtube.com/embed/47YzXAM1q1I" title="A tour to modern aesthetics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen autoPlay></iframe>
+                            <img className="w-full h-96 object-cover" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750" alt="Modern House in LA" />
                             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                 <a href="#slide1" className="btn btn-circle">❮</a>
+                                <a href="#slide3" className="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide3" className="carousel-item relative w-full">
+                            <img className="w-full h-96 object-cover" src="https://images.unsplash.com/photo-1570129477492-45c003edd2be" alt="Beachside Villa in Miami" />
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide2" className="btn btn-circle">❮</a>
                                 <a href="#slide1" className="btn btn-circle">❯</a>
                             </div>
                         </div>
-
-
                     </div>
-                    <div class="text-center lg:w-2/3 w-full">
-                        <h1 class="title-font sm:text-4xl text-3xl my-7 font-medium text-gray-900">Some Well known
-                            Supplements :
+
+                    {/* Text Section */}
+                    <div className="text-center lg:w-2/3 w-full mt-12">
+                        <h1 className="title-font sm:text-4xl text-3xl font-medium text-gray-900">
+                            Explore Our Latest Properties
                         </h1>
+                        <p className="my-5 text-gray-600">Find your dream property from our extensive list of homes and apartments.</p>
+                    </div>
 
-                        <div class="flex justify-center">
-                            <section class="text-gray-600 body-font">
-                                <div class="container px-5  mx-auto">
+                    {/* Property Listings */}
+                    <div className="flex justify-center">
+                        <section className="text-gray-600 body-font">
+                            <div className="container px-5 py-10 mx-auto">
+                                <div className="flex flex-wrap -m-4">
+                                    {/* Property 1 */}
+                                    <div className="p-4 md:w-1/3">
+                                        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                            <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914" alt="Luxury Apartment in NYC" />
+                                            <div className="p-6">
+                                                <h2 className="text-xl font-medium text-gray-900 title-font mb-2">Luxury Apartment in NYC</h2>
+                                                <p className="leading-relaxed text-base mb-4">Price: $1,200,000 | 3 Beds | 2 Baths | 1500 sqft</p>
+                                                <a className="text-indigo-500 inline-flex items-center">View Details
+                                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                    <div class="flex flex-wrap">
-                                        <div
-                                            class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-r-2  border-gray-200 border-opacity-60">
-                                            <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
-                                                Antioxidants:</h2>
-                                            <p class="leading-relaxed text-base mb-4"> Various antioxidants, such as green tea extract, coenzyme Q10 (CoQ10), and resveratrol, help protect the skin from free radicals and reduce signs of aging.
-                                            </p>
-                                            <a class="text-blue-500 inline-flex items-center">Learn More
-                                                <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                                    stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
-                                                    viewBox="0 0 24 24">
-                                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                                </svg>
-                                            </a>
+                                    {/* Property 2 */}
+                                    <div className="p-4 md:w-1/3">
+                                        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                            <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://media.istockphoto.com/id/2139010213/photo/real-estate-agent-showing-a-young-couple-a-new-house.jpg?s=2048x2048&w=is&k=20&c=CRT5O87MBZSJdxz-FHDV6WqzrAhAQREjeH5hk7g_pII=" alt="Modern House in LA" />
+                                            <div className="p-6">
+                                                <h2 className="text-xl font-medium text-gray-900 title-font mb-2">Modern House in LA</h2>
+                                                <p className="leading-relaxed text-base mb-4">Price: $950,000 | 4 Beds | 3 Baths | 2000 sqft</p>
+                                                <a className="text-indigo-500 inline-flex items-center">View Details
+                                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
                                         </div>
-                                        <div
-                                            class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-r-2  border-gray-200 border-opacity-60">
-                                            <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
-                                                Vitamin E </h2>
-                                            <p class="leading-relaxed text-base mb-4"> Vitamin E is another antioxidant that helps protect the skin from oxidative stress. It can help moisturize and soothe dry or irritated skin.</p>
-                                            <a class="text-blue-500 inline-flex items-center">Learn More
-                                                <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                                    stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
-                                                    viewBox="0 0 24 24">
-                                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                                </svg>
-                                            </a>
-                                        </div>
-                                        <div
-                                            class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-r-2  border-gray-200 border-opacity-60">
-                                            <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">B Vitamins
-                                            </h2>
-                                            <p class="leading-relaxed text-base mb-4">B vitamins, including B3 (niacin), B5 (pantothenic acid), and B6 (pyridoxine), are important for skin health. They help maintain skin barrier function and hydration.</p>
-                                            <a class="text-blue-500 inline-flex items-center">Learn More
-                                                <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                                    stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
-                                                    viewBox="0 0 24 24">
-                                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                                </svg>
-                                            </a>
-                                        </div>
-                                        <div
-                                            class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-r-2 border-gray-200 border-opacity-60">
-                                            <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
-                                                Vitamin K:</h2>
-                                            <p class="leading-relaxed text-base mb-4"> Vitamin K plays a role in blood clotting and may help reduce the appearance of dark circles under the eyes.
-                                            </p>
-                                            <a class="text-blue-500 inline-flex items-center">Learn More
-                                                <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                                    stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
-                                                    viewBox="0 0 24 24">
-                                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                                </svg>
-                                            </a>
+                                    </div>
+
+                                    {/* Property 3 */}
+                                    <div className="p-4 md:w-1/3">
+                                        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                            <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://images.unsplash.com/photo-1570129477492-45c003edd2be" alt="Beachside Villa in Miami" />
+                                            <div className="p-6">
+                                                <h2 className="text-xl font-medium text-gray-900 title-font mb-2">Beachside Villa in Miami</h2>
+                                                <p className="leading-relaxed text-base mb-4">Price: $2,500,000 | 5 Beds | 4 Baths | 3000 sqft</p>
+                                                <a className="text-indigo-500 inline-flex items-center">View Details
+                                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </section>
-                        </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </section>
         </>
-    )
-}
+    );
+};
 
-export default Intro
+export default Intro;
