@@ -15,7 +15,7 @@ const Signup = () => {
             return;
         }
 
-        const response = await fetch(`https://xenonbackend-n0wf.onrender.com/api/auth/createuser`, {
+        const response = await fetch(`http://localhost:3000/api/auth/createuser`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
