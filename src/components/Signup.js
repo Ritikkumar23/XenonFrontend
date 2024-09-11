@@ -8,9 +8,9 @@ const Signup = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const { name, email, password } = credentials;
+        const { name, email, password, cpassword } = credentials; // Include cpassword here
 
-        if (password !== password) {
+        if (password !== cpassword) {
             alert('Passwords do not match');
             return;
         }
