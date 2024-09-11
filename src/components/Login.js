@@ -25,7 +25,7 @@ const Login = () => {
             };
 
             const response = await fetch(
-                `http://localhost:3000/api/auth/login`,
+                `https://xenonbackend-n0wf.onrender.com/api/auth/login`,
                 options
             );
             const json = await response.json();
