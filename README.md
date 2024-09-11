@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/18032318-3024-45e4-ac2b-aae42dd91bc3)
 🌟 PropertyX - Modern Property Finder 🌟
 Welcome to PropertyX, a cutting-edge property finder designed to make your real estate search easy and efficient! 🚀
 
@@ -21,11 +21,6 @@ SignUp page:
 ![image](https://github.com/user-attachments/assets/46fc3b64-993d-4922-81bd-811014c2d0ba)
 
 
-
-
-<!-- Replace with actual screenshot -->
-<!-- Replace with actual screenshot -->
-
 📂 Project Structure
 bash
 Copy code
@@ -39,7 +34,7 @@ PropertyX/
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/user/PropertyX.git
+git clone https://github.com/Ritikkumar23/XenonFrontend.git
 2. Install Dependencies
 bash
 Copy code
@@ -56,7 +51,7 @@ npm start
 # For backend
 node index.js
 4. Open in Browser
-http://localhost:3000
+https://github.com/Ritikkumar23/XenonFrontend.git
 
 💡 How It Works
 PropertyX uses a MERN (MongoDB, Express.js, React, Node.js) stack to build modern, full-stack web applications. The frontend leverages React for dynamic UI components, while the backend provides a robust API built with Node.js and Express, ensuring smooth communication with the MongoDB database.
