@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/18032318-3024-45e4-ac2b-aae42dd91bc3)
 🌟 PropertyX - Modern Property Finder 🌟
 Welcome to PropertyX, a cutting-edge property finder designed to make your real estate search easy and efficient! 🚀
 
