@@ -12,11 +12,17 @@ https://xenon-frontend-eight.vercel.app/
 
 📸 Screenshots
 Here are some screenshots of PropertyX in action:
+
 Home page:
+
 ![image](https://github.com/user-attachments/assets/5c37cf40-fdf4-4e5d-abe7-aadaf8412c3b)
+
 Login Page:
+
 ![image](https://github.com/user-attachments/assets/5088c520-0042-4b3f-bec3-fabf0c16d05e)
+
 SignUp page:
+
 ![image](https://github.com/user-attachments/assets/46fc3b64-993d-4922-81bd-811014c2d0ba)
 
 
